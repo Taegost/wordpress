@@ -1,0 +1,6 @@
+include_recipe 'yum-epel::default'
+include_recipe 'yum-remi-chef::remi-php72'
+include_recipe 'wordpress::apache'
+include_recipe 'wordpress::php'
+include_recipe 'wordpress::mysql'
+include_recipe 'wordpress::download'
